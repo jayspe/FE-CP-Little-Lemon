@@ -1,4 +1,5 @@
 import HeroImage from '../../assets/images/food_ingredients.webp';
+//import Menu from '../../components/Menu'
 import { Link } from 'react-router-dom';
 
 function Confirmation() {
@@ -12,7 +13,7 @@ function Confirmation() {
             </section>
 
             <section className="redirect-buttons">
-                <a className="redirect-button" href={require('../../assets/menu.webp')} target="_blank" rel="noreferrer">Browse Menu</a>
+                <a className="redirect-button" href={require('../../components/Menu')} target="_blank" rel="noreferrer">Browse Menu</a>
                 <Link className="redirect-button" to="/order">Order Online</Link>
                 <Link className="redirect-button" to="/">Home Page</Link>
             </section>
